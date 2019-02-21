@@ -1,0 +1,32 @@
+body {
+    width: auto;
+    max-width: 800px;
+    overflow: visible;
+    margin: 1rem;
+    height: calc(100% - 2rem);
+}
+
+/* background decorator */
+.sb-background {
+    position: relative;
+    left: -1rem;
+    top: -1rem;
+    width: 98vw;
+}
+
+/* for info plugin */
+#story-root + div {
+    & h1 {
+        display: none;
+    }
+
+    & pre {
+        overflow-x: auto !important;
+    }
+
+    & table {
+        width: 100%;
+    }
+}
+
+
