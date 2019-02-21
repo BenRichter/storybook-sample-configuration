@@ -1,7 +1,7 @@
 "scripts": {
-  "test": "TESTING=true node scripts/test.js --env=jsdom",
+  "test": "node scripts/test.js --env=jsdom",
   "test:image": "IMG=true node scripts/test.js --env=jsdom",
-  "storybook": "TESTING=true start-storybook -p 6006 -c config/storybook",
+  "storybook": "start-storybook -p 6006 -c config/storybook",
 },  
 "devDependencies": {
   "@storybook/addon-actions": "^4.1.11",
