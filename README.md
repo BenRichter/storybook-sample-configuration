@@ -6,6 +6,8 @@ Started with standard quick-setup `npx -p @storybook/cli sb init` from https://s
 
 Configs where extended and moved to match jest structure.
 
+Test setup is based on https://storybook.js.org/testing/structural-testing/ and https://www.robinwieruch.de/visual-regression-testing-react-storybook/
+
 ## Addons
 
 Example configuration for storybook with "basic" addons:
